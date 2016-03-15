@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <group android:checkableBehavior="single">
+
+            <item
+                android:id="@+id/home_id"
+                android:title="Home"
+                android:icon="@drawable/homeicon">
+
+            </item>
+
+            <item
+                android:id="@+id/setting_id"
+                android:title="Setting"
+                android:icon="@drawable/settingsicon">
+
+            </item>
+        </group>
+
+    <group android:checkableBehavior="single">
+        <menu android:title="Social">
+
+            <item android:title="Watsapp"
+                android:id="@+id/watsapp"
+                android:icon="@drawable/whatsappicon">
+
+            </item>
+            <item android:title="Facebook"
+                android:id="@+id/facebook"
+                android:icon="@drawable/faceicon">
+
+            </item>
+            <item android:title="Skype"
+                android:id="@+id/skype"
+                android:icon="@drawable/skypeicon">
+
+            </item>
+            <item android:title="Twitter"
+                android:id="@+id/twitter"
+                android:icon="@drawable/twittericon">
+
+            </item>
+            <item android:title="Instagram"
+                android:id="@+id/intagramicon"
+                android:icon="@drawable/instagramicon">
+
+            </item>
+            <item android:title="google+"
+                android:id="@+id/gplus"
+                android:icon="@drawable/googleplusicon">
+
+            </item>
+            <item android:title="YouTube"
+                android:id="@+id/youtube"
+                android:icon="@drawable/youtubeicon">
+
+            </item>
+
+
+
+        </menu>
+    </group>
+    <group>
+        <menu android:title="Contact US">
+            <item android:title="Help"
+                android:id="@+id/help"
+                android:icon="@drawable/helpicon">
+
+            </item>
+            <item android:title="Call us"
+                android:id="@+id/phone"
+                android:icon="@drawable/phoneicon">
+
+            </item>
+            <item
+                android:id="@+id/message_id"
+                android:title="Mail Us"
+                android:icon="@drawable/messageicon">
+
+            </item>
+        </menu>
+        <item android:title="Location"
+            android:id="@+id/maps"
+            android:icon="@drawable/mapicon">
+
+        </item>
+    </group>
+    <item android:title="Feedback"
+        android:id="@+id/feedback"
+        android:icon="@drawable/feedbackicon">
+
+    </item>
+    <item android:title="Rate Us"
+        android:id="@+id/rateus"
+        android:icon="@drawable/rateicon">
+
+    </item>
+    <item android:title="About Us"
+        android:id="@+id/aboutus"
+        android:icon="@drawable/infoicon">
+
+    </item>
+    <item android:title="Share"
+        android:id="@+id/share"
+        android:icon="@drawable/shareiconnew"
+        >
+
+    </item>
+
+</menu>
